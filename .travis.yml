@@ -1,5 +1,5 @@
 language: objective-c
 osx_image: xcode12
 xcode_project: LearningSwiftUI.xcodeproj # path to your xcodeproj folder
-xcode_scheme: LearningSwiftUITests
+xcode_scheme: LearningSwiftUI
 xcode_destination: platform=iOS Simulator,OS=13.2,name=iPhone X
