@@ -16,9 +16,6 @@ jobs:
 
     - name: Select Xcode
       run: sudo xcode-select -switch /Applications/Xcode_12.4.app
-      
+
     - name: Build and Test
       run: xcodebuild clean -project LearningSwiftUI.xcodeproj -scheme LearningSwiftUI -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=14.4' test
-
-    - name: Run tests
-      run: swift test -v
